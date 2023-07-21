@@ -1,0 +1,25 @@
+{
+  "name": "cypress-demo",
+  "version": "1.0.0",
+  "description": "test cypress",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+  },
+  "keywords": [
+    "qa",
+    "testing",
+    "javascript",
+    "cypress"
+  ],
+  "author": "fede",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^15.0.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
+    "@cypress/xpath": "^2.0.3",
+    "cypress": "^12.17.2",
+    "esbuild": "^0.16.4"
+  }
+}
